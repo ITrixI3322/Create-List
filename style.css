@@ -1,0 +1,65 @@
+
+#parenDiv{
+margin: 0px;
+position: absolute;
+right:50px;
+left:50px;
+width:700px;	
+}
+
+#sortList, #reversSortList{
+	height: 25px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 36px;
+	
+}
+#searchList{
+	height: 19px;
+	position: absolute;
+	right: 36px;
+	
+}
+
+.inpAddText{
+	width: 150px;
+	position: absolute;
+	left: 250px;
+}
+.btnAddText{
+	position: absolute;
+	left: 400px;
+}
+#setText, .btnSaveChangeList{
+	font-size: 70%;
+	margin-right: 3px;
+	background: green;
+	color: white;
+	height: 25px;
+	border: 0px;
+	border-radius: 5px;
+}
+#deleteAll, .btnCanslChangeList, .delText{
+	font-size: 70%;
+	margin-right: 3px;
+	background: red;
+	color: white;
+	height: 25px;
+	border: 0px;
+	border-radius: 5px;
+}
+.changeText{
+	font-size: 70%;
+	margin-right: 3px;
+	background: orange;
+	color: white;
+	height: 25px;
+	border: 0px;
+	border-radius: 5px;
+}
+.paragraphNameTextList, .paragraphEditTextList{
+	margin: 0px;
+	padding: 5px;
+	border:1px solid grey;
+}
